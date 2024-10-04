@@ -1,0 +1,104 @@
+/* Container for the entire video list */
+.all-videos-container {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Main heading */
+.all-videos-container h1 {
+  font-size: 2.5rem;
+  color: #34495e;
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Individual video item */
+.video-item {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+/* Hover effect for video card */
+.video-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* Video title */
+.video-item h3 {
+  font-size: 1.5rem;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+}
+
+/* Video player */
+.video-item video {
+  width: 100%;
+  max-height: 250px;
+  border-radius: 8px;
+  margin: 1rem 0;
+}
+
+/* Delete button */
+.video-item button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  outline: none;
+}
+
+/* Hover effect for delete button */
+.video-item button:hover {
+  background-color: #c0392b;
+}
+
+/* Message styling */
+.message {
+  text-align: center;
+  font-weight: bold;
+  color: #2ecc71;
+  margin-top: 1rem;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .all-videos-container {
+      padding: 1rem;
+  }
+
+  .all-videos-container h1 {
+      font-size: 2rem;
+  }
+
+  .video-item {
+      padding: 1rem;
+  }
+
+  .video-item h3 {
+      font-size: 1.2rem;
+  }
+  
+  .video-item video {
+      max-height: 200px;
+  }
+  
+  .video-item button {
+      padding: 0.5rem 1.2rem;
+      font-size: 0.9rem;
+  }
+}
