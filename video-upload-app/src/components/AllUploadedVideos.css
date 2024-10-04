@@ -9,7 +9,8 @@
 /* Main heading */
 .all-videos-container h1 {
   font-size: 2.5rem;
-  color: #34495e;
+  color: #b9d3ec;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   margin-bottom: 3rem;
   text-transform: uppercase;
   letter-spacing: 2px;

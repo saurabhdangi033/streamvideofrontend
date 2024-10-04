@@ -1,4 +1,9 @@
 /* Container for the upload card */
+body {
+  background-color: #25032b; /* Light teal background */
+}
+
+
 .card {
   background-color: rgb(27, 1, 7); /* Dark background */
   color: #ecf0f1; /* Light text color */
